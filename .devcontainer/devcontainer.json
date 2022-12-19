@@ -2,5 +2,14 @@
     "name": "${localWorkspaceFolderBasename}",
     "build": {
         "dockerfile": "Dockerfile"
-    }
+    },
+    // Forward RStudio port
+	"forwardPorts": [8787],
+	"portsAttributes": {
+		"8787": {
+			"label": "Rstudio",
+			"requireLocalPort": true,
+			"onAutoForward": "ignore"
+		}
+	}
 }
