@@ -1,4 +1,6 @@
 {
     "name": "${localWorkspaceFolderBasename}",
-    "image": "ghcr.io/rocker-org/devcontainer/tidyverse"
+    "build": {
+        "dockerfile": "Dockerfile"
+    }
 }
