@@ -1,1 +1,1 @@
-FROM ghcr.io/rocker-org/devcontainer/tidyverse:4
+FROM ghcr.io/lescai-teaching/rstudio-docker-amd64:latest
