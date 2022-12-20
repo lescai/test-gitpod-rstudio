@@ -1,1 +1,1 @@
-FROM ghcr.io/lescai-teaching/rstudio-docker-amd64:latest
+FROM rocker/tidyverse:latest-daily
